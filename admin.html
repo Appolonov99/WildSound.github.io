@@ -1,0 +1,200 @@
+<html>
+	<head>
+        		<meta charset="utf-8" />
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+        <style>
+        article{
+            min-height: 400px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .haract{
+height:300px;
+
+        }
+        .haract div{
+            margin-top:10px;
+            font-size: 18px;
+display: flex;
+justify-content: space-between;
+        }
+        .haract div input{
+            text-decoration: none;
+            height:25px;
+            width: 200px;
+            padding: 6px 8px;
+            outline:none;
+        }
+        .haract button{
+            height: 40px;
+            width: 90px;
+            font-size: 15px;
+            background: rgb(92, 189, 92);
+            border-radius: 10px;
+            margin-top:10px;
+        }
+        .example{
+            margin-top: 10px;
+            height:400px;
+        }
+        #item{
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 0px;
+    height: 330px;
+    width: 182px;
+    padding: 8px 8px;
+    background: white;
+    margin-left: 30px;
+}
+#item > img{
+    width:38%;
+    margin-top: 15px; 
+    margin-left:25% ;
+    height:190px;
+}
+#item > h3{
+    color: #606061;
+    height: 45px
+}
+#price{
+    margin-top:0px;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+}
+#item{
+    font-size: 12px;
+    font-weight: 600;
+}
+#description{
+    align-content: center;
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: -40px;
+    width:100%;
+    word-wrap: break-word;
+    height: 70px;
+    overflow: auto;
+    font-variant: small-caps;
+}
+        </style>
+        </head>
+        <body background="pattern.jpg">
+                <header>
+                        <div id="header">
+                            <a href="Telegram.html" id="h1_1"  ><h1 align="center">WildSound</h1></a>
+                        </div>
+                </header>
+                <nav>
+                    <div class="menu" >
+                    <img onclick="CM()" src="https://png.icons8.com/ios/50/000000/menu.png">
+                    <div>
+                    <a href="assortmen/assortmen.html">Ассортимент</a>
+                    <a href="shares/shares.html">Акции</a>
+                    <a href="articles/articles.html">Анонсы</a>
+                    </div>
+                    </div>
+                </nav>
+                <article>
+                    <div class='haract'>
+                         <h1>Характеристика</h1>
+                    <div><span>Название товара:</span> <input data-type="nameP" type="text"></div>
+                    <div><span>Описание товара:</span> <input data-type="description" type="text"></div>
+                    <div><span>Цена товара:</span> <input data-type="priceP" type="text"></div>
+                    <div><span>Ссылка на картинку товара:</span> <input data-type="imgP" type="text"></div>
+<div>Высота картинки:<input data-type="height" type="text"></div>
+                    <div>Ширина картинки:<input data-type="width" type="text"></div>
+                    <div>Отступ от левого края:<input data-type="left" type="text"></div>
+                    <button>Отправить</button>
+                    </div>
+                    <div class="example">
+                        <div id='item'>
+                    <img id="imgP">
+                    <h3 id="nameP"></h3>
+                    <div id='description'></div>
+                    <div id="price"><span id="priceP">1231</span><span>₽</span></div>
+                    
+                        </div>
+                    </div>
+                </article>
+                <footer>
+                        <div id="contact">
+                                <h3>Мы находимся по адресу:</h3>
+                                <ul>
+                                    <font size="4">
+                                    <li><img src="img\mesto.png" width="20px" height="20px">Москва, Автозаводская yлица, 16, 115280</li>
+                                    </font>
+                                </ul>
+                                <br>
+                                <h3>Телефоны для справок:</h3>
+                                  <ul>
+                                    <font size="4">
+                                    <li><img src="img\tel.png" width="20px" height="20px">8(903)979-04-80</li>
+                                    <li><img src="img\tel.png" width="20px" height="20px">8(937)814-48-44</li>
+                                    <li><img src="img\tel.png" width="20px" height="20px">8(999)913-14-55</li>
+                                    </font>
+                                  </ul>
+                                  <br>
+                        </div>
+                        <div id="contact2">
+                                <h3>Почтовый адрес:</h3>
+                                  <ul>
+                                    <font size="4"><li><img src="img\pochta.png" width="23px" height="23px">Wildsound_info@gmail.com</li></font>
+                                  </ul>
+                                  <ul>
+                                  <br>
+                                  <li><table cellspacing="0px" cellspacing="50px"><tr>
+                                      <td><a href="https://vk.com/public167252805"><img src="img\vk1.png" width="40px" height="40px"></a></td>
+                                      <td><a href="https://www.instagram.com/wildsound_info/"><img src="img\Inst.png" width="40px" height="40px"></a></td>
+                                      <td><img src="img\twi.png" width="40px" height="40px"></td>
+                                      <td><img src="img\face.png" width="40px" height="40px"></td>
+                                    </tr></table></li>
+                                  </ul>
+                                  <ul>
+                                      <a href="razrabotchiki/razrabotchiki.html"><h3>Разработчики</h3></a>
+                                  </ul>
+                        </div>
+                        <img src="img\karta.jpg" class="pict"  >
+                    </footer>
+        </body>
+        <script>
+        var elem=document.body.getElementsByClassName("haract")[0];
+        elem.onkeyup=function(e)
+        {
+            var type=e.target.getAttribute('data-type');
+            switch(type){
+            case "imgP":
+                var example=document.getElementById(type);
+                example.src=e.target.value;
+                return;
+                break;
+            case 'height':
+               var example=document.getElementById("imgP");
+               example.style.height=e.target.value +"px";
+            return;
+                 break;
+            case 'width':
+            var example=document.getElementById("imgP");
+               example.style.width=e.target.value +"px";
+            return;
+                 break;
+                 case 'left':
+            var example=document.getElementById("imgP");
+               example.style.marginLeft=e.target.value +"px";
+            return;
+                 break;
+            }
+        if(type=="width" || type=="height" || type=="imgP"){return;}
+            var example=document.getElementById(type);
+            example.innerText=e.target.value;           
+
+        }
+        </script>
+        <script src="evetColomMenu.js"></script>
+        </html>
